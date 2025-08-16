@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, ChangeEvent } from "react";
-import { Loader2, Mail, FileText, Sparkles } from "lucide-react"; // icons
+import { Loader2, Mail, FileText, Sparkles } from "lucide-react"; 
 
 export default function Home() {
   const [transcript, setTranscript] = useState<string>("");
